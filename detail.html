@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Detail</title>
+</head>
+<body>
+
+{% for result in data1%}
+<pre>
+Id:{{ result[0] }}
+First Name:{{ result[1] }}
+Last Name:{{ result[2] }}
+Father Name:{{ result[3] }}
+Mother Name:{{ result[4] }}
+Gender:{{ result[5] }}
+DOB:{{ result[6] }}
+Phone Number:{{ result[7] }}
+Blood Group:{{ result[8] }}
+Email:{{ result[9] }}
+Address:{{ result[11] }},{{ result[12] }},{{ result[13] }},{{ result[14] }},{{ result[15] }}
+Rank:{{ result[16] }}
+Branch:{{ result[17] }}
+</pre>
+<hr>
+{% endfor %}
+</body>
+<html>

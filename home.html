@@ -1,0 +1,24 @@
+
+
+<html>
+  <head>
+    <title>Home</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please Register Or Login</h1>
+      <br>
+      <form action="/home" method="post">
+       <select name="reg">
+	  <option value="login">LOGIN</option>
+ 	 <option value="register">REGISTER</option>
+	</select>
+        <input type="submit" value="Submit">
+      </form>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>
