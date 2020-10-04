@@ -14,7 +14,7 @@ def form():
 	return """
         <html>
             <body>
-                <h1>Blood Donation</h1>
+                <h1>Student Registration System</h1>
 
                 <form action="/transform" method="post" enctype="multipart/form-data">
                     <input type="file" name="data_file" />
